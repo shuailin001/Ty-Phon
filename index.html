@@ -187,37 +187,9 @@
     <div id="emptyHint" class="empty" style="display:none;">没有匹配的 faculty，可以尝试换一个关键词。</div>
   </div>
 
-  <script>
-    // 这里是示例数据，你后面可以把它改成真实的数据
-    const FACULTIES = [
-      {
-        name: "Alice Tan",
-        school: "NUS",
-        department: "Department of Electrical and Computer Engineering",
-        title: "Associate Professor",
-        research: "AI, machine learning, optimization, trustworthy AI systems",
-        awards: ["IEEE Fellow"],
-        homepage: "https://example.com/alice"
-      },
-      {
-        name: "Bob Lee",
-        school: "NTU",
-        department: "School of Computer Science and Engineering",
-        title: "Assistant Professor",
-        research: "computer vision, robotics, multi-modal perception",
-        awards: [],
-        homepage: "https://example.com/bob"
-      },
-      {
-        name: "Chen Wei",
-        school: "NUS",
-        department: "Computer Science",
-        title: "Professor",
-        research: "systems, distributed computing, cloud infrastructure",
-        awards: ["ACM Fellow", "Best Paper Awards"],
-        homepage: "https://example.com/chen"
-      }
-    ];
+    <script>
+    // 全局变量，先置为空数组
+    let FACULTIES = [];
 
     const searchInput = document.getElementById("searchInput");
     const schoolFilter = document.getElementById("schoolFilter");
@@ -325,11 +297,30 @@
       renderList(filtered);
     }
 
+    // 从 faculties.json 加载数据
+    async function loadFaculties() {
+      try {
+        resultsInfo.textContent = "正在加载数据...";
+        const resp = await fetch("faculties.json");
+        if (!resp.ok) {
+          throw new Error("Failed to load faculties.json");
+        }
+        FACULTIES = await resp.json();
+        applyFilters();
+      } catch (err) {
+        console.error(err);
+        resultsInfo.textContent = "加载数据失败，请检查 faculties.json 是否存在且格式正确。";
+        emptyHint.style.display = "block";
+      }
+    }
+
     searchInput.addEventListener("input", applyFilters);
     schoolFilter.addEventListener("change", applyFilters);
 
-    // 初始渲染
-    renderList(FACULTIES);
+    // 页面加载完后，去拉取 JSON
+    loadFaculties();
   </script>
+
 </body>
 </html>
+
