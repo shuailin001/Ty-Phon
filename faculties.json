@@ -25,6 +25,29 @@
     "research": "systems, distributed computing, cloud infrastructure",
     "awards": ["ACM Fellow", "Best Paper Awards"],
     "homepage": "https://www.comp.nus.edu.sg/~wangwu"
+  },
+  {
+    "name": "zhao liu",
+    "school": "NUS",
+    "department": "计算学院",
+    "title": "Assistant Professor",
+    "role": "",
+    "hat": "",
+    "fellowship": "",
+    "keywords": [
+      "编程语言&软件工程"
+    ],
+    "research_area": "编程语言，重点包括静态分析/控制流分析、语法与解析、编译器与优化、泛型与元编程，以及下一代编程语言",
+    "join_year": "2022",
+    "link": "",
+    "ai_flag": "N",
+    "phd_graduation": "印第安纳大学，USA",
+    "postdoc": "USA",
+    "industry_experience": "",
+    "america_background": "Y",
+    "grant_call_2022_2025": "",
+    "awards": []
   }
+  
 ]
 
