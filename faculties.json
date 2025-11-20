@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Zhang San",
+    "school": "NUS",
+    "department": "Department of Electrical and Computer Engineering",
+    "title": "Associate Professor",
+    "research": "AI, machine learning, trustworthy systems",
+    "awards": ["IEEE Fellow"],
+    "homepage": "https://ece.nus.edu.sg/~zhangsan"
+  },
+  {
+    "name": "Li Si",
+    "school": "NTU",
+    "department": "School of Computer Science and Engineering",
+    "title": "Assistant Professor",
+    "research": "computer vision, robotics, multi-modal perception",
+    "awards": [],
+    "homepage": "https://www.ntu.edu.sg/scse/about-us/faculty/li-si"
+  },
+  {
+    "name": "Wang Wu",
+    "school": "NUS",
+    "department": "School of Computing",
+    "title": "Professor",
+    "research": "systems, distributed computing, cloud infrastructure",
+    "awards": ["ACM Fellow", "Best Paper Awards"],
+    "homepage": "https://www.comp.nus.edu.sg/~wangwu"
+  }
+]
