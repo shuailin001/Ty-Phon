@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NTU & NUS Faculty Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 16px 24px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.16);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    header p {
+      margin: 4px 0 0;
+      font-size: 13px;
+      opacity: 0.8;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 16px auto 32px;
+      padding: 0 16px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 16px;
+      align-items: center;
+    }
+    .controls-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 180px;
+      flex: 1;
+    }
+    .controls label {
+      font-size: 12px;
+      color: #4b5563;
+    }
+    .controls input[type="text"],
+    .controls select {
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #d1d5db;
+      font-size: 14px;
+      outline: none;
+      background: #fff;
+    }
+    .controls input[type="text"]:focus,
+    .controls select:focus {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 1px rgba(37,99,235,0.2);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      background: #e5e7eb;
+      color: #374151;
+      margin-right: 4px;
+      margin-top: 4px;
+    }
+    .badge-school-NTU {
+      background: #dbeafe;
+      color: #1d4ed8;
+    }
+    .badge-school-NUS {
+      background: #fef3c7;
+      color: #b45309;
+    }
+    .results-info {
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+    .card-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 12px 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      border: 1px solid #e5e7eb;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .card-name {
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .card-title {
+      font-size: 12px;
+      color: #6b7280;
+    }
+    .card-dept {
+      font-size: 12px;
+      color: #4b5563;
+    }
+    .card-research {
+      font-size: 12px;
+      color: #111827;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 4px;
+    }
+    .link {
+      font-size: 12px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+    .empty {
+      margin-top: 16px;
+      font-size: 13px;
+      color: #6b7280;
+    }
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 18px;
+      }
+      .controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NTU & NUS Faculty Explorer</h1>
+    <p>本地小 demo：支持按姓名和关键词搜索，按学校筛选。</p>
+  </header>
+
+  <div class="container">
+    <section class="controls">
+      <div class="controls-group">
+        <label for="searchInput">搜索 姓名 / 研究方向 / 奖项 关键词</label>
+        <input id="searchInput" type="text" placeholder="例如：AI, security, vision, IEEE Fellow..." />
+      </div>
+      <div class="controls-group" style="max-width: 220px;">
+        <label for="schoolFilter">学校筛选</label>
+        <select id="schoolFilter">
+          <option value="all">All schools</option>
+          <option value="NUS">NUS</option>
+          <option value="NTU">NTU</option>
+        </select>
+      </div>
+    </section>
+
+    <div id="resultsInfo" class="results-info"></div>
+    <section id="results" class="card-list"></section>
+    <div id="emptyHint" class="empty" style="display:none;">没有匹配的 faculty，可以尝试换一个关键词。</div>
+  </div>
+
+  <script>
+    // 这里是示例数据，你后面可以把它改成真实的数据
+    const FACULTIES = [
+      {
+        name: "Alice Tan",
+        school: "NUS",
+        department: "Department of Electrical and Computer Engineering",
+        title: "Associate Professor",
+        research: "AI, machine learning, optimization, trustworthy AI systems",
+        awards: ["IEEE Fellow"],
+        homepage: "https://example.com/alice"
+      },
+      {
+        name: "Bob Lee",
+        school: "NTU",
+        department: "School of Computer Science and Engineering",
+        title: "Assistant Professor",
+        research: "computer vision, robotics, multi-modal perception",
+        awards: [],
+        homepage: "https://example.com/bob"
+      },
+      {
+        name: "Chen Wei",
+        school: "NUS",
+        department: "Computer Science",
+        title: "Professor",
+        research: "systems, distributed computing, cloud infrastructure",
+        awards: ["ACM Fellow", "Best Paper Awards"],
+        homepage: "https://example.com/chen"
+      }
+    ];
+
+    const searchInput = document.getElementById("searchInput");
+    const schoolFilter = document.getElementById("schoolFilter");
+    const resultsContainer = document.getElementById("results");
+    const resultsInfo = document.getElementById("resultsInfo");
+    const emptyHint = document.getElementById("emptyHint");
+
+    function renderList(list) {
+      resultsContainer.innerHTML = "";
+      if (!list.length) {
+        resultsInfo.textContent = "共 0 条结果";
+        emptyHint.style.display = "block";
+        return;
+      }
+      emptyHint.style.display = "none";
+      resultsInfo.textContent = `共 ${list.length} 条结果`;
+
+      list.forEach(f => {
+        const card = document.createElement("article");
+        card.className = "card";
+
+        const header = document.createElement("div");
+        header.className = "card-header";
+
+        const nameEl = document.createElement("div");
+        nameEl.className = "card-name";
+        nameEl.textContent = f.name;
+
+        const schoolBadge = document.createElement("span");
+        schoolBadge.className = "badge " + (f.school === "NTU" ? "badge-school-NTU" : f.school === "NUS" ? "badge-school-NUS" : "");
+        schoolBadge.textContent = f.school || "Unknown";
+
+        header.appendChild(nameEl);
+        header.appendChild(schoolBadge);
+
+        const titleEl = document.createElement("div");
+        titleEl.className = "card-title";
+        titleEl.textContent = f.title || "";
+
+        const deptEl = document.createElement("div");
+        deptEl.className = "card-dept";
+        deptEl.textContent = f.department || "";
+
+        const researchEl = document.createElement("div");
+        researchEl.className = "card-research";
+        researchEl.textContent = f.research || "";
+
+        const footer = document.createElement("div");
+        footer.className = "card-footer";
+
+        const awardsEl = document.createElement("div");
+        if (Array.isArray(f.awards) && f.awards.length) {
+          f.awards.forEach(a => {
+            const badge = document.createElement("span");
+            badge.className = "badge";
+            badge.textContent = a;
+            awardsEl.appendChild(badge);
+          });
+        } else {
+          const badge = document.createElement("span");
+          badge.className = "badge";
+          badge.textContent = "No listed awards";
+          awardsEl.appendChild(badge);
+        }
+
+        const linkEl = document.createElement("a");
+        linkEl.className = "link";
+        linkEl.textContent = "Homepage";
+        linkEl.href = f.homepage || "#";
+        linkEl.target = "_blank";
+        linkEl.rel = "noopener noreferrer";
+
+        footer.appendChild(awardsEl);
+        footer.appendChild(linkEl);
+
+        card.appendChild(header);
+        card.appendChild(titleEl);
+        card.appendChild(deptEl);
+        card.appendChild(researchEl);
+        card.appendChild(footer);
+
+        resultsContainer.appendChild(card);
+      });
+    }
+
+    function applyFilters() {
+      const keyword = searchInput.value.trim().toLowerCase();
+      const school = schoolFilter.value;
+
+      const filtered = FACULTIES.filter(f => {
+        if (school !== "all" && f.school !== school) return false;
+        if (!keyword) return true;
+
+        const haystack = [
+          f.name || "",
+          f.department || "",
+          f.title || "",
+          f.research || "",
+          Array.isArray(f.awards) ? f.awards.join(" ") : ""
+        ].join(" ").toLowerCase();
+
+        return haystack.includes(keyword);
+      });
+
+      renderList(filtered);
+    }
+
+    searchInput.addEventListener("input", applyFilters);
+    schoolFilter.addEventListener("change", applyFilters);
+
+    // 初始渲染
+    renderList(FACULTIES);
+  </script>
+</body>
+</html>
