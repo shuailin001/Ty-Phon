@@ -1,0 +1,776 @@
+﻿name,school,department,title,role,hat,fellowship,keywords,Research Area,join year,Link,AI&AI+ or not,phd graduation,postdoc,Industry Experience,america background,Grant Call（2022-2025）
+Michael D. ADAMS,NUS,计算学院,Assistant Professor,,,,编程语言&软件工程,编程语言，重点包括静态分析/控制流分析、语法与解析、编译器与优化、泛型与元编程，以及下一代编程语言,2022,,N,印第安纳大学，USA,USA,,Y,
+Divesh AGGARWAL,NUS,计算学院,Associate Professor,,,,算法&理论,"信息论密码学
+随机性提取器及其应用
+计算机科学中的格
+编码理论
+计算数论",2016,,N,"ETH,EU",USA+EU,,Y,"MOE-000619-00（2024-）：Breaking the Box -- On Security of Cryptographic Devices.
+NRF-000453-00 （2024-）：Computational Hardness of Lattice Problems and Implications"
+Anand BHOJAN,NUS,计算学院,Associate Professor,,,,"系统&网络
+媒体
+AI","分布式计算与无线网络（物联网、安全、区块链）
+人工智能（生成式AI、金融科技）
+娱乐计算（游戏、VR/AR/元宇宙）
+教学方法论",,,Y,NUS，亚太,,,N,"MoE AcRF Tier 1 （2019-2022）
+"
+BIAN Yatao,NUS,计算学院,Assistant Professor,,,,AI,AI驱动的基础研究：AI for Science/Science for AI-推理赋能的原子基础模型、基于能量的学习（例如，基于能量的推理/引导/优化）、用于科学的LLM/智能体、图机器学习和神经集合。,2025,,Y,"ETH,EU",EU,"Google Research
+Tencent AI",Y,
+BRESSON Xavier,NUS,计算学院,Associate Professor,,,,AI,"机器学习
+图神经网络
+稀疏凸优化
+图谱理论",2021,,Y,EPFL，EU,,,N,
+Trevor E. CARLSON,NUS,计算学院,Associate Professor,,,,系统&网络,"计算机体系结构（聚焦效率与灵活性）
+性能建模
+快速且可扩展的仿真方法论",2017,,N,Ghent University，EU,EU,,N,"MOE-000460-00 (2023-):Revisiting Memory Defences Through Hardware-Software Co-Designed Approaches
+MOE Tier 2 grant MOE-T2EP20124-0007"
+Diptarka CHAKRABORTY,NUS,计算学院,Assistant Professor,,,,算法&理论,理论计算机科学：大型数据集上的算法、亚线性算法、近似算法、图算法和数据结构,2019,,N,印度坎普爾理工學院，亚太,EU,,N,"MOE-000280-00 (2022-):Handling Massive Data under the Edit Metric: Clustering, Finding Median and Computational Hardness
+MoE AcRF Tier 2 grant (MOE-T2EP20221-0009)
+MoE AcRF Tier 1 grant (T1 251RES2303)"
+CHAN Chee Yong,NUS,计算学院,Associate Professor,,,,数据库,查询处理与优化、事务管理及数据库可用性,,,N,威斯康星大学麦迪逊分校，USA,,朗讯科技公司贝尔实验室,Y,
+CHAN Mun Choon,NUS,计算学院,Professor,Vice-Dean，Graduate Studies,,,系统&网络,"计算机网络 
+移动计算 
+软件定义网络 
+无线数据网络 
+信息物理系统",2004,,N,哥伦比亚大学，USA,,朗讯科技公司贝尔实验室,Y,"Efficient and Scalable Network Security and Performance Monitoring for P13 Networks (2023), NUS/NCS, SGD$550K.
+In-Network Acceleration for Latency Sensitive Applications for Future Communication Systems (2022), NRF/FCP, SGD$494K."
+CHANG Ee-Chien,NUS,计算学院,Associate Professor,,,,可信,机器学习安全、可信执行环境和应用密码学,,,Y,纽约大学，USA,USA,,Y,
+Yi-Jun CHANG,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,算法&理论,"分布式、并行和亚线性算法
+理论计算机科学",2021,,N,密歇根大学，USA,EU,,Y,
+CHEN Nan,NUS,计算学院,Assistant Professor,,,,,,,,,,,,,
+CHEN Tsuhan,NUS,计算学院,Professor,"Deputy President（Research and Technology),NUS Enterprise",Distinguished Professor,"IEEE Fellow,新加坡工程师学会会士","媒体
+AI","计算机视觉与模式识别
+多媒体编码与检索
+生物特征认证",2009,,Y,加州理工学院，USA,,,Y,MOE-000500-00  (2023-):Digital Information Resilience: Restoring Trust and Nudging Behaviours in Digitalisation
+CHEN Yu,NUS,计算学院,Assistant Professor, ,NUS Presidential Young Professor,,算法&理论,理论计算机科学和数学：图算法，亚线性算法和图稀疏化问题,2024,,N,宾夕法尼亚大学，USA,EU,,Y,
+CHIN Wei Ngan,NUS,计算学院,Associate Professor,,,,编程语言&软件工程,"编程语言
+高级类型系统
+程序分析与优化
+可靠软件
+验证",,,N,帝国理工学院，UK,,,N,
+Chua Tat Seng,NUS,计算学院,Professor,"Director, NUS-Tsinghua Extreme Search Center (NExT)",KITHCT Chair Professor,新加坡国家科学院院士,媒体,"非结构化多模态数据分析
+多模态基础模型
+负责任的AI：AI可信与安全
+对话式搜索与推荐",,,Y,利兹大学，UK,,,N,"NRF National Large Language Models Funding Initiative (AISG Award No: AISG-NMLP-2024-002)
+Title: NExT++: Towards Web Intelligence and User Empowerment. Collaborators: Tsinghua University, University of Southampton. Source: National Research Foundations, Singapore. Grant: S$12,000,000. Duration: Oct 2016 – Mar 2021.
+Title: Base Metals Price Forecasting from Alternate Data Sources Using AI. Collaborator: Four Elements Capital. Source: AI Singapore. Grant: S$200,000. Duration: Oct 2018 - Sep 2020."
+Olivier DANVY,NUS,计算学院,Professor,,,,,,2017,,,,,,,
+Vikas DEEP,NUS,计算学院,Assistant Professor,,,,数据科学&商务分析,利用应用概率和多臂赌博机理论工具，重点关注A/B测试和计算机化自适应测试。,2025,,N,西北大学，USA,,,Y,
+DONG Jin Song,NUS,计算学院,Professor,,,澳大利亚工程师协会会士,编程语言&软件工程,"时间并发系统、规范、语义网、形式化方法、安全关键系统 
+软件工程、形式化方法、模型检测、概率推理、决策标记、可信AI/大语言模型 
+安全与保障系统、自主系统、区块链、体育分析",1998,,Y,昆士兰大学，AU,,,N,"MOE-000745-00(2025-):Enhancing Privacy Regulation Compliance among Web Applications
+MOE-000746-00(2025-):Visualizing and Debugging Training Dynamics of Deep Learning Models via Time-Travelling Visualization: Perspectives of Foundation, Techniques, and Tool Design
+"
+E Jane Little,NUS,计算学院,Assistant Professor,,,,"人机交互
+AI
+媒体",人机交互、计算机图形学和AI的交叉领域：如何设计能够帮助用户发展领域专业知识的计算工具,2025,,Y,斯坦福大学，USA,USA,微软、Adobe,Y,
+FOONG Sew Bun,NUS,计算学院,Professor,"Program Director，Graduate Studies
+IBM Chief Technology Officer (ASEAN, Singapore, ASEAN Software Group) and IBM Distinguished Engineer
+Managing Director and Group Head of Technology Services, DBS Bank
+Global Head Digital Transformation (Retail Banking, Private Banking, Wealth Management), Standard Chartered Bank
+Deputy Chief Executive, GovTech",,,,,2024,,,,,,,
+Seth Lewis GILBERT,NUS,计算学院,Professor,Head，Department of Computer Science,,,"算法&理论
+系统&网络","分布式和并行算法，关注可扩展性和容错性：无线网络、冲突解决、动态网络、优化/重新分配
+算法和数据结构
+分布式系统",2010,,N,MIT，USA,,,Y,
+GOH Khim Yong,NUS,计算学院,Professor,Head，Department of Information Systems and Analytics,,,"数据科学&商务分析
+数字化转型、平台与创新
+金融科技
+计算社会科学",消费者和企业在社交移动媒体和平台上的行为，数字媒体环境中的营销与广告，数字和人工智能创新中的定价与产品策略，计量经济学和因果影响评估方法。,,,Y,芝加哥大学，USA,,,Y,MOE-000625-00(2024-):AI-Generated Content: Economic Impacts and Implications for Policy and Regulation
+Anandha GOPALAN,NUS,计算学院,Associate Professor,Program Director，Graduate Studies,,,,可持续计算、教育科技以及利用技术促进低收入国家的经济发展，尤其是在扫盲、教育、医疗保健和商业领域。,,,N,,,,,
+Jungpil HAHN,NUS,计算学院,Professor,,Provost's Chair Professor,,"数字化转型、平台与创新
+计算社会科学
+数据科学与商业分析
+金融科技",开放式创新、组织学习与知识管理、软件开发流程、软件项目管理及人机交互,,,N,明尼苏达大学，USA,,,Y,
+Steven Halim,NUS,计算学院,Associate Professor,Director，Centre for Nurturing Computing Excellence (CeNCE),,,"算法&理论
+媒体",算法、竞技编程、可视化、优化、本地搜索,2007,,Y,NUS，亚太,,,N,
+HE Bingsheng,NUS,计算学院,Professor,Vice-Dean，Research,,IEEE Fellow 2025,"数据库
+系统与网络","大数据管理系统（尤其关注云计算和新兴硬件系统，例如多核处理器、GPU 和 FPGA）
+并行和分布式系统
+云计算
+机器学习系统",,,Y,HKUST，亚太,,微软,N,"Ministry of Education AcRF Tier 2  grant ,Singapore (NO.MOE-T2EP20121-0016)"
+Heng Cheng Suang,NUS,计算学院,Associate Professor,"Chair, NUS Teaching Academy",,,"数字化转型、平台与创新
+计算社会科学","社交媒体研究与新数字媒体的战略应用 
+新数字经济与共享经济研究 
+IT创业与创新 
+IT外包与升级决策",,,N,斯坦福大学，USA,,,Y,
+"HENZ, Martin J",NUS,计算学院,Associate Professor,,,,"编程语言&软件工程
+AI","可扩展的体验式学习
+教学系统
+AI在教育中的应用
+编程语言",1997,,Y,萨尔兰大学博士,,,Y,
+Bryan HOOI Kuen-Yew,NUS,计算学院,Assistant Professor,,,,"AI
+数据库","机器学习
+图算法
+异常检测
+时空数据
+AI在生物医学中的应用",2019,,Y,卡耐基梅隆大学,,,Y,Grant MOE-T2EP20124-0009：MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research
+David HSU,NUS,计算学院,Professor,"Director, Smart Systems Institute",Provost's Chair Professor,IEEE Fellow,AI,"机器人技术
+AI
+机器人规划与学习
+不确定性下的决策
+人机决策",2002,,Y,斯坦福大学，USA,,,Y,"National Research Foundation, Singapore, under its Medium Sized Centre Program, Center for Advanced Robotics Technology Innovation (CARTIN)：General-purpose Clothes Manipulation with Semantic KeypointsGeneral-purpose Clothes Manipulation with Semantic Keypoints"
+"HSU, Wynne",NUS,计算学院,Professor,"Director, Institute of Data Science (IDS), NUS",Provost's Chair Professor,,"AI
+数据库","医疗保健领域的AI
+社交媒体分析
+时空数据挖掘
+视网膜图像分析",,,Y,普渡大学，USA,,,Y,MOE AcRF TIER 3 Grant (MOEMOET32022-0001)：Aristotle: Mastering Logical Reasoning with ALogic-Complete Decompose-Search-Resolve Framework
+HUANG Ke Wei,NUS,计算学院,Associate Professor,"Director, Computing Translational Research & Development (C-TReND) Centre
+Academic Director, NUS MSc AI & Innovation",,,"数据科学&商务分析
+金融科技
+计算社会科学",,,,N,,,,,
+HUANG Zhiyong,NUS,计算学院,Associate Professor,"Director, Computing Translational Research & Development (C-TReND) Centre",,,"媒体
+数据库","计算机视觉与模式识别
+计算机图形学
+数据分析
+数据隐私安全",,,Y,EPFL，EU,,,N,"1. PI, AI + Neuroscience, NUS AI Institute, May 2025-Apr 2027. 
+2. PI, NUS Digital Twin for Research and Services, MOE Tier-1 project, July 2022-June 2025
+ 3. Co-PI, Capsule Endoscopy SI-Aided Diagnosis, AI SG 100E, Jan 2020- Jul 2021 
+4. Co-PI, Development of a Knowledge and Data-driven Satellite DEM Improvement Technique, AI SG 100E, Feb 2020- Aug 2021 
+5. PI, Super Resolution of Images, Smiths Detection, 2020-2021
+ 6. PI, AI-based Automatic Classification of Crowdsourced Images, 2019-2021 "
+Joxan JAFFAR,NUS,计算学院,Professor,,,,"编程语言&软件工程
+算法&理论","程序分析
+定理证明
+组合优化
+编程语言和应用",1995,,,莫纳什大学，AU,,IBM.T.J Watson Research Center,Y,
+Rahul JAIN,NUS,计算学院,Professor,新加坡量子技术中心首席研究员,,,"可信
+算法&理论","量子计算
+信息理论
+复杂性理论
+通信复杂性
+密码学",2008,,N,印度孟买塔塔基础研究所，亚太,US,,Y,"项目名称：
+NRF-NRFF2013-13
+MOE2012-T3-1-009
+NRF2017-NRF-ANR004"
+"JAIN, Sanjay",NUS,计算学院,Professor,,Provost's Chair Professor,,算法&理论,"归纳推理
+复杂性理论
+递归理论
+计算学习理论
+结构复杂性理论",,,N,罗切斯特大学，USA,,,Y,
+JIN Chen,NUS,计算学院,Associate Professor,,,,"数字化转型、平台与创新
+金融科技",,,,,,,,,
+John Kallaugher,NUS,计算学院,Assistant Professor,,,,,,,,,,,,,
+KAN Min-Yen,NUS,计算学院,Associate Professor,Vice-Dean，Undergraduate Studies,,,"AI
+媒体","自然语言处理
+大语言模型
+数字图书馆
+信息检索
+应用机器学习
+人机交互
+网络与分布式信息系统",,,Y,哥伦比亚大学，USA,,,Y,"1.PI, ""Automating Community Note Generation for Social Media Misinformation Governance"" - 100K (2025-2026), MOE (Tier 1), Singapore
+2.Collaborator, ""Unveiling Country Trade: Insights from 19th century Batavia Kong Koan Records via OCR and NLP Analysis"" - 80K (2024-2026), CSSH Seed Fund, Singapore
+3.PI, ""CheckUp: Grounding Social Media on Healthcare with Science"" - 100K (2024-2026), SoC Seed Funding, Singapore
+4.Co-PI, ""AI Centre for Education Technologies"" - 4.5M (2023-2025), AI Singapore, Singapore
+5.Co-PI, ""Digital Information Resilience: Restoring Trust and Nudging Behaviours in Digitalisation"" - 23M, MOE Tier 3 , Singapore
+6.Co-PI, ""SingaKids Pic2Speak: Multilingual AI Tutor - Uplifting Singapore's Bilingual Edge"" - 3.5M (2023-2025), NRF AI in Education Grand Challenge, Singapore
+7.PI, ""Towards Controllable Generation for Scientific Document Summarization"" - 241K (2024-2025), MOE (Tier 1), Singapore
+8.PI, ""Scholarly Document Information Extraction"" - 217K (2021-2023), MOE (Tier 1), Singapore
+9.Co-PI, ""AI-Lyricist: A Music-Informed Automatic Lyrics Generation System for Language Learning"" - 698K (2021-2024), MOE (Tier 2), Singapore"
+Atreyi KANKANHALLI,NUS,计算学院,Professor,,Provost's Chair Professor,,"医疗信息学，
+数字化转型、平台与创新，
+智能系统，
+计算社会科学",,,,,,,,,
+Mohan KANKANHALLI,NUS,计算学院,Professor,"Director，NUS AI Institute
+Deputy Executive Chairman， AI Singapore",Provost's Chair Professor,,"媒体
+可信","多模态计算
+CV
+可信AI",,,Y,伦斯勒理工学院，USA,,,Y,
+Varun KARAMSHETTY,NUS,计算学院,Assistant Professor,,,,"数据科学&商务分析
+数字化转型、平台与创新",,,,,,,,,
+Kenji KAWAGUCHI,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,"AI
+算法&理论","深度学习
+LLMs",2021,,Y,MIT，USA,USA,,Y,Singapore Ministry of Education Academic Research Fund Tier 1 (Award No: T1 251RES2207)：Minimalist Concept Erasure in Generative Models
+KHOO Siau Cheng,NUS,计算学院,Associate Professor,Co-Director，NUS Business Anaytics Centre（BAC）,,,编程语言&软件工程,"编程语言
+代码分析
+软件工程
+规范挖掘
+编程分析
+转型与优化",,,,耶鲁大学，USA,,,Y,多个DSTA、MOE Tier1/2、A*STAR项目
+Stanley KOK,NUS,计算学院,Assistant Professor,,,,"数字化转型、平台与创新
+计算社会科学
+智能系统",,,,,,,,,
+Nakyung KYUNG,NUS,计算学院,Assistant Professor,,,,"医疗信息学
+数字化转型、平台与创新
+",,,,,,,,,
+LEE Gim Hee,NUS,计算学院,Associate Professor,,,,"媒体
+AI",,,,,,,,,"MOE-000744-00(2025-):Open-World 3D Scene Understanding with Neural Fields
+NRF-000466-00(2024-):TEACHING MACHINES TO SEE OUR 3D WORLD"
+Lee Jiho,NUS,计算学院,Assistant Professor,,,,,,,,,,,,, 
+"LEE Mong Li, Janice",NUS,计算学院,Professor,,,,"计算生物学
+数据库",,,,,,,,,
+LEE Wee Sun,NUS,计算学院,Professor,,,,AI,,,,,,,,,
+LEE Yi-Chieh,NUS,计算学院,Assistant Professor,,,,"媒体
+AI",,,,,,,,,
+"LEONG Wing Lup, Ben",NUS,计算学院,Associate Professor,"Assistant Dean (International Admissions), Dean's Office
+Director, Centre for Computing for Social Good and Philanthropy (CCSGP)",,,系统&网络,,,,,,,,,
+LEONG Tze Yun,NUS,计算学院,Professor,,,,AI,,,,,,,,,
+LEOW Wee Kheng,NUS,计算学院,Associate Professor,,,,"媒体
+算法&理论",,,,,,,,,
+LI Gujie,NUS,计算学院,Assistant Professor,,,,"数字化转型、平台与创新
+计算社会科学",,,,,,,,,
+Jialin LI,NUS,计算学院,Assistant Professor,,Sung Kah Kay Assistant Professor,,系统&网络,,,,,,,,,
+LI Xiaofan,NUS,计算学院,Assistant Professor,,,,"金融科技
+数字化转型、平台与创新",,,,,,,,,
+LIANG Zhenkai,NUS,计算学院,Associate Professor,"Chairman (CS Curriculum Committee), Department Of Computer Science",,,"可信
+系统&网络",,,,,,,,,
+Brian LIM Youliang,NUS,计算学院,Associate Professor,,,,媒体,,,,,,,,,
+"LIM Jie, Freddy",NUS,计算学院,Assistant Professor,,,,"数据科学&商务分析
+数字化转型、平台与创新",,,,,,,,,
+LIM Shi Ying,NUS,计算学院,Assistant Professor,,,,"医疗信息学
+数字化转型、平台与创新
+计算社会科学
+",,,,,,,,,
+LING Chun Kai,NUS,计算学院,Assistant Professor,,,,"AI
+算法&理论",,,,,,,,,
+Anji LIU,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,AI,,,,,,,,,
+LOW Kian Hsiang,NUS,计算学院,Associate Professor,,,,AI,,,,,,,,,
+LU Yao,NUS,计算学院,Assistant Professor,,,,"数据库
+系统&网络
+AI",,,,,,,,,
+"MA Tianbai, Richard",NUS,计算学院,Associate Professor,"IT Coordinator, Computing Facilities",,,系统&网络,,,,,,,,,
+Umang MATHUR,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,"编程语言&软件工程
+算法&理论",,,,,,,,,
+Tulika MITRA,NUS,计算学院,Professor,Dean，Dean‘s Office,Provost's Chair Professor,,系统&网络,,,,,,,,,NRF Competitive Research Programme CRP23：PACE: Next-Generation IoT Edge Computing through Efficient Software Programmable Accelerators 
+Niranjan NAGARAJAN,NUS,计算学院,Associate Professor,,,,,,,,,,,,,
+Suranga NANAYAKKARA,NUS,计算学院,Associate Professor,"Vice-Dean, Communications",,,媒体,,,,,,,,,
+NG Hwee Tou,NUS,计算学院,Professor,,Provost's Chair Professor,,"AI
+媒体",,,,,,,,,
+NG See Kiong,NUS,计算学院,Professor,,,,"AI
+计算生物学",,,,,,,,,
+NG Teck Khim,NUS,计算学院,Associate Professor,Vice-Dean，Lifelong Education,,,媒体,,,,,,,,,
+OH Lih Bin,NUS,计算学院,Associate Professor,"Deputy Head (Teaching and Degree Programmes), Department Of Information Systems and Analytics",,,数字化转型、平台与创新,,,,,,,,,
+OOI Wei Tsang,NUS,计算学院,Associate Professor,,,,"媒体
+AI",,,,,,,,,
+PEH Li Shiuan,NUS,计算学院,Professor,,Provost's Chair Professor,,系统&网络,,,,,,,,,
+Ivan PNG,NUS,计算学院,Professor,,Distinguished Professor,,,,,,,,,,,
+"POO Chiang Choon, Danny",NUS,计算学院,Associate Professor,,,,"数据科学&商务分析
+医疗信息学
+智能系统",,,,,,,,,
+QIAO Dandan,NUS,计算学院,Associate Professor,,,,"数字化转型、平台与创新
+数据科学与商务分析",,,,,,,,,MOE-000769-00(2025-）：Has the Inflection Point Come? Economic Analysis for the Impact of AI on Jobs Across Sectors
+Damith Chatura RAJAPAKSE,NUS,计算学院,Associate Professor,"Deputy Head (Teaching), Department Of Computer Science",,,编程语言&软件工程,,,,,,,,,
+Anand Mohan RAMCHAND,NUS,计算学院,Associate Professor,"Deputy Head (Industry and Special Programmes), Department Of Information Systems and Analytics",,,,,,,,,,,,
+Patrick REBENTROST,NUS,计算学院,Associate Professor,,,,,,,,,,,,,
+Manuel RIGGER,NUS,计算学院,Assistant Professor,,,,"编程语言&软件工程
+数据库
+系统&网络",,,,,,,,,
+Abhik ROYCHOUDHURY,NUS,计算学院,Professor,,,,"编程语言&软件工程
+可信",,,,,,,,,NRF-000367-00(2023-):Fuzz Testing
+Prateek SAXENA,NUS,计算学院,Associate Professor,,,,"系统&网络
+可信
+算法&理论",,,,,,,,,MOE-000674-00(2025-):A New and Versatile Hardware-Software Interface for Software Security
+Jonathan Mark SCARLETT,NUS,计算学院,Associate Professor,"Assistant Dean (PhD), Graduate Studies",,,"AI
+算法&理论",,,,,,,,,
+Ilya SERGEY,NUS,计算学院,Associate Professor,,,,"编程语言&软件工程
+系统&网络
+算法&理论",,,,,,,,,
+"SETIONO, Rudy",NUS,计算学院,Associate Professor,"Program Director (MComp, SPN), Graduate Studies",,,"数据科学&商务分析
+智能系统",,,,,,,,,
+Lin SHAO,NUS,计算学院,Assistant Professor,,,,AI,,,,,,,,,
+Michael Shieh,NUS,计算学院,Assistant Professor,,,,AI,,,,,,,,,
+Reza SHOKRI,NUS,计算学院,Associate Professor,,Dean's Chair Associate Professor,,"可信
+AI
+算法&理论",,,,,,,,,MOE-000622-00(2024-):Comprehensive Privacy Auditing in Machine Learning
+Mike SHOU,NUS,计算学院,Assistant Professor,,,,"媒体
+AI",,,,,,,,,
+"Mong Cheng, Terence SIM",NUS,计算学院,Associate Professor,,,,"可信
+AI
+媒体",,,,,,,,,
+Harold SOH Soon Hong,NUS,计算学院,Associate Professor,"Director, Computing Horizons Office",,,AI,,,,,,,,,
+SOO Yuen Jien,NUS,计算学院,Associate Professor,,,,系统&网络,,,,,,,,,
+"STEPHAN, Frank Christian",NUS,计算学院,Professor,,,,算法&理论,,,,,,,,,
+Vivy SUHENDRA,NUS,计算学院,Associate Professor,"Program Director (MComp, GT and CET), Graduate Studies",,,,,,,,,,,,
+Warut SUKSOMPONG,NUS,计算学院,Assistant Professor,,,,"算法&理论
+AI",,,,,,,,,MOE-000272-00（2022-）：Algorithmic Solutions for Fair Resource Allocation
+TAN Tuck Choy,NUS,计算学院,Associate Professor,"Assistant Dean (Advisement), Undergraduate Studies",,,,,,,,,,,,
+Bernard TAN Cheng Yian,NUS,计算学院,Professor,,Tan Sri Runme Shaw Senior Professor,,"数据科学&商务分析
+医疗信息学
+数字化转型、平台与创新
+计算社会科学
+智能系统",,,,,,,,,
+TAN Chuan Hoo,NUS,计算学院,Associate Professor,"Deputy Head (Administration and Research), Department Of Information Systems and Analytics",,,"医疗信息学
+数字化转型、平台与创新
+计算社会科学
+",,,,,,,,,
+"TAN Keng Yan, Colin",NUS,计算学院,Associate Professor,"Assistant Dean (Outreach), Communications
+Director, Makers@SoC",,,"系统&网络
+AI",,,,,,,,,
+"TAN Soon Huat, Gary",NUS,计算学院,Associate Professor,,,,系统&网络,,,,,,,,,
+TAN Kian Lee,NUS,计算学院,Professor,,,,"媒体
+计算生物学
+数据库",,,,,,,,,
+Robby TANtowi TAN,NUS,计算学院,Associate Professor,,,,,,,,,,,,,
+"TAN Swee Lin, Sharon",NUS,计算学院,Associate Professor,"Vice-Dean, Industry Relations",,,"医疗信息学
+计算社会科学",,,,,,,,,
+TAN Sun Teck,NUS,计算学院,Associate Professor,"Emeritus Director, Centre for Nurturing Computing Excellence (CeNCE)",,,,,,,,,,,,
+TAN Tiow Seng,NUS,计算学院,Associate Professor,,,,媒体,,,,,,,,,
+TAN Wee Kek,NUS,计算学院,Associate Professor,,,,数字化转型、平台与创新,,,,,,,,,
+TAN Zhi Xuan,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,"AI
+编程语言&软件工程",,,,,,,,,
+TEO Hock Hai,NUS,计算学院,Professor,,Provost's Chair Professor,,"医疗信息学，
+数字化转型、平台与创新，
+计算社会科学，
+智能系统",,,,,,,,,
+TUNG Kum Hoe Anthony,NUS,计算学院,Professor,,,,数据库,,,,,,,,,
+Ambuj VARSHNEY,NUS,计算学院,Assistant Professor,,,,系统&网络,,,,,,,,,
+Prashant Nalini VASUDEVAN,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,"算法&理论
+可信",,,,,,,,,NRF-000291-00(2022-)：Fine-Grained Cryptography
+Bimlesh WADHWA,NUS,计算学院,Associate Professor,Vice-Dean，Student Life,,,"编程语言&软件工程
+媒体",,,,,,,,,
+WANG Bohan,NUS,计算学院,Assistant Professor,,,,媒体,,,,,,,,,
+Jingxian WANG,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,"系统&网络
+媒体
+AI",,,,,,,,,
+WANG Ye,NUS,计算学院,Associate Professor,,,,媒体,,,,,,,,,MOE-000338-00(2023-):SLIONS: an AI-enabled Platform to Promote Personalized Chinese language Learning for Adult Language Learners
+WONG Lim Soon,NUS,计算学院,Professor,,KITHCT Chair Professor,,"计算生物学
+算法与理论
+数据库",,,,,,,,,
+Weng-Fai WONG,NUS,计算学院,Associate Professor,"Associate Dean (Admissions), Admissions
+Deputy Head (External Relations and Special Programs), Department Of Computer Science",,,系统&网络,,,,,,,,,
+Xiaokui XIAO,NUS,计算学院,Professor,"Deputy Head (Research and Graduate Matters), Department Of Computer Science",,,"数据库
+算法&理论",,,,,,,,,MOE-000761-00(2025-):Synthesizing Complex Data under Differential Privacy
+YAN Shuicheng,NUS,计算学院,Professor,,Distinguished Professor,,"媒体
+AI",,,https://linstar.huawei.com/scholar/#/resource/expert-info?id=67ecd693d04c9b4a826ac5b0,,,,,,
+YAO Yingjie Angela,NUS,计算学院,Associate Professor,,Dean's Chair Associate Professor,,"AI
+媒体",,,,,,,,,
+"YAP Hock Chuan, Roland",NUS,计算学院,Associate Professor,,,,"AI
+可信
+编程语言&软件工程
+算法&理论",,,,,,,,,
+Yang YOU,NUS,计算学院,Assistant Professor,,NUS Presidential Young Professor,,"AI
+系统&网络",,,,,,,,,
+YU Haifeng,NUS,计算学院,Associate Professor,,Dean's Chair Associate Professor,,"可信
+算法&理论
+",,,,,,,,,MOE-000273-00(2022-2025):Towards Better Sybil Defenses in High-Throughput Distributed Systems
+ZHAI Yingda,NUS,计算学院,Assistant Professor,,,,"数字化转型、平台与创新
+计算社会科学",,,,,,,,,
+ZHANG Jiaheng,NUS,计算学院,Assistant Professor,,,,"可信
+AI
+算法&理论",,,,,,,,,
+Yang ZHANG,NUS,计算学院,Professor,,,,"计算生物学
+AI",,,,,,,,,
+Roger ZIMMERMANN,NUS,计算学院,Professor,,,,媒体,,,,,,,,,
+A S Madhukumar,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Alexei Sourin,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Alvin Chan Guo Wei,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Anupam Chattopadhyay,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Anwitaman Datta,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Arvind Easwaran,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Atsushi Nitanda,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Bo An,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Boyang Albert Li,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Cham Tat Jen,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Chan Syin,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Chee Wei Tan,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Chen Change Loy,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Chen Wang,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Chia Liang Tien,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Chng Eng Siong,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Chuanxia Zheng,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Cong Gao,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Conrad Watt,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Daniel Paulin,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Deepu Rajan,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Dmitrii Ustiugov,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Douglas Leslie Maskell,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Du Yuxuan,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Dusit Niyato,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Erik Cambria,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Fan Xiuyi,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Goh Wooi Boon,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Guan Cuntai,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Guosheng Lin,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+He Ying,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Hui Siu Cheung,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Jaehong Yoon,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Jagath Chandana Rajapakse,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Jayne Thompson,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Jie Xiong,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Joty Shafiq Rayhan,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Kang Hao Cheong,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Ke Yiping (Kelly),NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Kwoh Chee Keong,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Lam Kwok Yan,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Lam Siew Kei,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Lee Bu Sung,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Li Yi,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Lim Wei Yang Bryan,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Lin Weisi,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Liu Weichen,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Liu Yang,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Liu Ziwei,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Long Cheng,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Lu Shijian,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Luke Ong,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Luo Jun,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Luo Siqiang,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Luu Anh Tuan,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Melanie Herschel,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Miao Chun Yan,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Mohamed M. Sabry,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Ng Wee Keong,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Ong Yew Soon,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Pan Xingang,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Pranjal Dutta,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Qian Kemao,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Qichen Wang,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Quek Hiok Chai,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Rob Cornish,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Samantha Chan,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Sean Du,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Siu Lun Chau,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Sourav Saha Bhowmick,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Sun Aixin,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Sung Yoonchang,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Tan Rui,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Tan Yong Kiam,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Tang Xueyan,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Tao Dacheng,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Themistoklis Gouleakis,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Timothy van Bremen,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+"Vun Chan Hua, Nicholas",NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Wai Kin Adams Kong,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Wang Wenya,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Wang Yong,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Wei Dong,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Wei Lu,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Wen Yonggang,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Wentong Cai,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Xiaohui Bei,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Xijie Gao,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Yeo Chai Kiat,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Yewen Pu,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Yoonchang Sung,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Yu Han,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Zhang Hanwang,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Zhang Jie,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Zhang Mengmi,NTU,计算与数据科学学院,Assistant Professor,,,,,,,,,,,,,
+Zhang Tianwei,NTU,计算与数据科学学院,Associate Professor,,,,,,,,,,,,,
+Zheng Jianmin,NTU,计算与数据科学学院,Professor,,,,,,,,,,,,,
+Alessandro Romagnoli,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Ang Wei Tech,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Ang Whye Teong,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Anutosh Chakraborty,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Cai Yiyu,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Chai Gin Boay,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Chan Siew Hwa,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Chan Weng Kong,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Chen Chun-Hsien,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Chen I-Ming,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Chou Siaw Meng,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Domenico Campolo,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Du Hejun,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Erkan Kayacan,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+"Fan Zheng, David",NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Fei Duan,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Hirotaka Sato,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Ho Jin Yao,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Hong Li,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Hortense Le Ferrand,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Hou Han Wei,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Huang Changjin,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Huang Weimin,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+James Wang Ming,NTU,工学院，机械与航天工程,Professor ,,,,,,,,,,,,,
+Jimmy Hsia,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Khor Khiam Aik,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Kim Mun Sek,NTU,工学院，机械与航天工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Lai Changquan,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Lam Khin Yong,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Li Hongying,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Li Hua,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+"Li King Ho, Holden",NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Liang Xuan,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Liu Lerwen,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Lum Guo Zhan,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Lye Sun Woh,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Lyu Chen,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Marcos,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Marvin Carl May,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Mir Feroskhan,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Moon Seung Ki,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Murukeshan Vadakke Matham,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+"New Tze How, Daniel",NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Ng Bing Feng,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Ng Teng Yong,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+"Ng Yin Kwee, Eddie",NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Ooi Kim Tiow,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+"Pang Hock Lye, John",NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Paulo Jorge Da Silva Bartolo,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+"Phee Soo Jay, Louis",NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Punit Kumar,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Rajesh Piplani,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Sameer Alam,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Seah Leong Keey,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+"Shu Dong Wei, David",NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Shu Jian Jun,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Song Binyang,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Sridhar Idapalapati,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Su Pei-Chen,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Sunil Chandrakant Joshi,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Tai Kang,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Tan Ming Jen,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+"Tay Yiwei, Daniel",NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Tran Anh Tuan,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Upadrasta Ramamurty,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Vu Duong,NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Wan Man Pun,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Wang Yifan,NTU,工学院，机械与航天工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Wong Teck Neng,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Wu Mao See,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Xiao Zhongmin,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Xie Ming,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+"Yang Chun, Charles",NTU,工学院，机械与航天工程,Professor,,,,,,,,,,,,,
+Yang Jianfei,NTU,工学院，机械与航天工程,Assistant Professor,,,,,,,,,,,,,
+Yap Fook Fah,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Yeo Song Huat,NTU,工学院，机械与航天工程,Associate Professor,,,,,,,,,,,,,
+Bryan German Pantoja Rosero,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Cao Bin,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Chong Tzyy Haur,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Chu Jian,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Fei Xunchang,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Fu Yuguang,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Fung Tat Ching,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Grzegorz Lisak,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Ivan Au,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Kim Gun,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Kim Youngrong,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Leong Eng Choon,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Li Bing,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Lim Teik Thye,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+"Lo Yat-Man, Edmond",NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Qian Shunzhi,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Qianhong She,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Qin Xiaosheng,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Saulo Mendes,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Shi Chao,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Stefan Wuertz,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+"Sun Delai, Darren",NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Tan Kang Hai,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+"Tiong Lee Kong, Robert",NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Wang Rong,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Wang Zhiwei,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Weiming Tu,NTU,工学院，土木与环境工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Wong Yiik Diew,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Wu Wei,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Xiaojin Zheng,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Xiaole Yin,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+YANG En-Hua,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Yan Ran,NTU,工学院，土木与环境工程,Assistant Professor,,,,,,,,,,,,,
+Yang Yaowen,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Yi Yaolin,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Yuen Kum Fai,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Zhao Ou,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+Zhou Yan,NTU,工学院，土木与环境工程,Professor,,,,,,,,,,,,,
+Zhu Feng,NTU,工学院，土木与环境工程,Associate Professor,,,,,,,,,,,,,
+BATES Roderick W.,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+BAZAN Guillermo Carlos,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+"CHAN Park B., Mary",NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+CHAN Warren,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+CHEN Lin,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+CHEN Peng,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+"CHEN Wei Ning, William",NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+CHEW Sing Yian,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+CHI Robin Yonggui,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+CHIBA Shunsuke,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+CHOKSI Tej Salil,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+DANG T. Tram,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+DAS Anuvab,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+DUAN Hong Wei,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+GOTO Atsushi,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+GOVINDARAJAN Nitish,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+GRANT Phillip Stephen,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+HE Dan,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+IDDYA Arpita,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+ITO Shingo,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+JIANG Zhiwei,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+KINJO Rei,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+LAU Wai Man Raymond,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+LEE Hiang Kwee,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+LEONG Shi Xuan,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+LEONG Weng Kee,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+LEOW Wan Ru,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+LI Haobo,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+LIANG Kaicheng,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+LIM Sierin,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+LING Tong,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+LING Xing Yi,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+LIU Wen Paul,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+LIU Xiaogang,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+LIU Xuewei,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+LOH Teck Peng,NTU,工学院，化学与生物工程,Professor,,Distinguished University Professor,,,,,,,,,,,
+LOH Zhi Heng,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+NI Ran,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+ONG Hadinoto Kunn,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+PARK Seung-Min,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+PU Kanyi,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+QIAO Yuan,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+SCHMETTERER Leopold,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+SHEN Xiaotao,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+SMITH Sheena Nichole,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+SO Cheuk Wai,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+SONG Juha,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+SOO Han Sen,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+STUPARU Mihaiela,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+TAN Choon Hong,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+TAN Howe Siang,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+TAN Meng How,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+"TAN Thatt Yang, Timothy",NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+WEBSTER Richard D.,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+XING Bengang,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+XU Rong,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+YE Hui,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+YEOW Edwin Kok Lee,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+YIN Xunyuan,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+ZAHER Judeh,NTU,工学院，化学与生物工程,Associate Professor,,,,,,,,,,,,,
+ZHAO Wenting,NTU,工学院，化学与生物工程,Assistant Professor,,,,,,,,,,,,,
+ZHAO Yanli,NTU,工学院，化学与生物工程,Professor,,,,,,,,,,,,,
+ZHONG Hongyu,NTU,工学院，化学与生物工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Ali Miserez,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Andrew Clive Grimsdale,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Annalisa Bruno,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Aravind Dasari,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Chae Sanghoon,NTU,工学院，材料科学与工程,Nanyang Assistant Professor ,,,,,,,,,,,,,
+Chen Xiaodong,NTU,工学院，材料科学与工程,Professor,,Distinguished University Professor,,,,,,,,,,,
+Chen Zhong,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Chew Sing Yian,NTU,工学院，材料科学与工程,Professor ,,,,,,,,,,,,,
+Cho Nam-Joon,NTU,工学院，材料科学与工程,Professor ,,President's Chair Professor,,,,,,,,,,,
+Czarny Bertrand,NTU,工学院，材料科学与工程,Assistant Professor,,,,,,,,,,,,,
+Dalton Tay Chor Yong,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Dong Zhili,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Eason Y.-S. Chen,NTU,工学院，材料科学与工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Gan Chee Lip,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Hilmi Volkan Demir,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Hng Huey Hoon,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Hortense Le Ferrand,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Hu Xiao,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Huang Yizhong,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Jason Xu Zhichuan,NTU,工学院，材料科学与工程,Professor,,President's Chair Professor,,,,,,,,,,,
+Jie Shen,NTU,工学院，材料科学与工程,Assistant Professor,,,,,,,,,,,,,
+Kedar Hippalgaonkar,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Lai Changquan,NTU,工学院，材料科学与工程,Assistant Professor,,,,,,,,,,,,,
+Lam Yeng Ming,NTU,工学院，材料科学与工程,Professor ,,President's Chair Professor,,,,,,,,,,,
+Lee Pooi See,NTU,工学院，材料科学与工程,Professor,,President's Chair Professor,,,,,,,,,,,
+Li Shuzhou,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Liu Zheng,NTU,工学院，材料科学与工程,Professor,,President's Chair Professor,,,,,,,,,,,
+Loo Say Chye Joachim,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Lydia Helena Wong,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Naoki Higashitarumizu,NTU,工学院，材料科学与工程,Assistant Professor,,,,,,,,,,,,,
+Ng Kee Woei,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+"Ng Wei Tat, Leonard",NTU,工学院，材料科学与工程,Assistant Professor,,,,,,,,,,,,,
+Nripan Mathews,NTU,工学院，材料科学与工程,Professor,,Provost’s Chair Professor,,,,,,,,,,,
+Prashant Kumar,NTU,工学院，材料科学与工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Raju V. Ramanujan,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Ronghui Wu,NTU,工学院，材料科学与工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Simon Redfern,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Srinivasan Madhavi,NTU,工学院，材料科学与工程,Professor ,, President's Chair Professor,,,,,,,,,,,
+Subodh Gautam Mhaisalkar,NTU,工学院，材料科学与工程,Professor ,, President's Chair Professor,,,,,,,,,,,
+Tan Kwan Wee,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Tan Lay Poh,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Teo Hang Tong Edwin,NTU,工学院，材料科学与工程,Professor ,,,,,,,,,,,,,
+Terry W.J. Steele,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Tim White,NTU,工学院，材料科学与工程,Professor ,, President's Chair Professor,,,,,,,,,,,
+Virgil Andrei,NTU,工学院，材料科学与工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Wu Dongshuang,NTU,工学院，材料科学与工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Xue Can,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+Yan Qingyu,NTU,工学院，材料科学与工程,Professor,,,,,,,,,,,,,
+Zhao Yang,NTU,工学院，材料科学与工程,Associate Professor,,,,,,,,,,,,,
+(Steve) Cuong Dang,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Abdulkadir C. Yucel,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Amer Mohammad Yusuf Mohammad Ghias,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Anamitra Makur,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Andy Khong Wai Hoong,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Ang Diing Shenp,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Arokiaswami Alphones,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Boon Chirn Chye,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Chae Sanghoon,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+"Chan Chok You, John",NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Chan Pak Kwong,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Chang Chip Hong,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Chang Joseph Sylvester,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Chang Wonkeun,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Cheah Chien Chern,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Chen Lihui,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Chen Tupei,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Cheng Tee Hiang,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Christopher H. T. Lee,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Daniel Bennett,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Erick Lansard,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Erry Gunawan,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Fan Weijun,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Gan Woon Seng,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Gao Weibo,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Goh Wang Ling,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Guan Yong Liang,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Gwee Bah Hwee,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Hilmi Volkan Demir,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Hu Guangwei,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Hu Guoqiang,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Huang Hen-Wei,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Hung Dinh Nguyen,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Ilya Belopolski,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Jiang Xudong,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Jong Ching Chuen,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Kim Munho,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Kim Tae Hyoung,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Lalit Kumar Goel,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Law Choi Look,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Lee Seok Woo,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Lee Sunwoo,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Lee Yee Hui,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Leong Wei Lin,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Lim Meng Hiot,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Lin Zhiping,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Ling Keck Voon,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Mao Kezhi,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Matthew Roy Foreman,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Mohammad Samizadeh Nikoo,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Mohammed Yakoob Siyal,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Ng Beng Koon,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Ng Boon Poh,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Ng Geok Ing,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Poenar Daniel Puiu,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Roland Tay Yingjie,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+See Kye Yak,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Sia Jia Xu Brian,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Siek Liter,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Song Peng,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Soong Boon Hee,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Soujanya Poria,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Su Rong,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Tan Chuan Seng,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Tan Eng Leong,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Tan Ooi Kiang,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Tan Soon Yim,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Tan Yap Peng,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Tang Xiaohong,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Tang Yi,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Tay Beng Kang,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Tay Wee Peng,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Teh Kah Chan,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Teo Hang Tong Edwin,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Tjin Swee Chuan,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Wang Dan Wei,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Wang Hong,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Wang Lin,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Wang Lipo,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Wang Qijie,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Wang Ziwei,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Wei Lei,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Wen Bihan,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Wen Changyun,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+"Wong Jia Yiing, Patricia",NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+"Wong Kin Shun, Terence",NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Wong Liang Jie,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Wu Yang,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Xiao Gaoxi,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Xie Lihua,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Xu Yan,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Yang Yun,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Yap Kim Hui,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Yoo Seong Woo,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Yu-Cheng Chen,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Yuen Chau,NTU,工学院，电子与电气工程,Associate Professor,,,,,,,,,,,,,
+Zhang Qing,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
+Zhang Weiran,NTU,工学院，电子与电气工程,Assistant Professor,,Nanyang Assistant Professor,,,,,,,,,,,
+Zhang Yujie,NTU,工学院，电子与电气工程,Assistant Professor,,,,,,,,,,,,,
+Zheng Yuanjin,NTU,工学院，电子与电气工程,Professor,,,,,,,,,,,,,
