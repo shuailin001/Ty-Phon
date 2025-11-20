@@ -187,9 +187,13 @@
     <div id="emptyHint" class="empty" style="display:none;">没有匹配的 faculty，可以尝试换一个关键词。</div>
   </div>
 
+  <script src="faculties.js"></script>
+
   <script>
-    // 全局数据
-    let FACULTIES = [];
+    // 全局数据：优先使用预嵌入的数据，避免 file:// 协议下 fetch 被 CORS 阻止
+    let FACULTIES = Array.isArray(window.FACULTIES_EMBEDDED)
+      ? window.FACULTIES_EMBEDDED
+      : [];
 
     const searchInput = document.getElementById("searchInput");
     const schoolFilter = document.getElementById("schoolFilter");
@@ -342,9 +346,15 @@
     }
 
     async function loadFaculties() {
-      try {
+      if (FACULTIES.length) {
+        resultsInfo.textContent = `已加载内嵌数据，共 ${FACULTIES.length} 条结果（如果需要最新数据会继续尝试读取 faculties.json）`;
+        applyFilters();
+      } else {
         resultsInfo.textContent = "正在加载数据...";
-        const resp = await fetch("faculties.json");
+      }
+
+      try {
+        const resp = await fetch("faculties.json", { cache: "no-store" });
         if (!resp.ok) {
           throw new Error("Failed to load faculties.json");
         }
@@ -352,9 +362,14 @@
         console.log("Loaded faculties:", FACULTIES);
         applyFilters();
       } catch (err) {
-        console.error(err);
-        resultsInfo.textContent = "加载数据失败，请检查 faculties.json 是否存在且格式正确。";
-        emptyHint.style.display = "block";
+        console.warn("使用内嵌数据作为回退:", err);
+        if (FACULTIES.length) {
+          resultsInfo.textContent = `无法从 faculties.json 读取数据，已使用内嵌备份，共 ${FACULTIES.length} 条结果。`;
+          emptyHint.style.display = "none";
+        } else {
+          resultsInfo.textContent = "加载数据失败，请检查 faculties.json 是否存在且格式正确。";
+          emptyHint.style.display = "block";
+        }
       }
     }
 
