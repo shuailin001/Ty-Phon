@@ -187,7 +187,7 @@
     <div id="emptyHint" class="empty" style="display:none;">没有匹配的 faculty，可以尝试换一个关键词。</div>
   </div>
 
-    <script>
+  <script>
     // 全局数据
     let FACULTIES = [];
 
@@ -207,94 +207,103 @@
       emptyHint.style.display = "none";
       resultsInfo.textContent = `共 ${list.length} 条结果`;
 
-      list.forEach(f => {
-        const card = document.createElement("article");
-        card.className = "card";
+      list.forEach((f, idx) => {
+        try {
+          const card = document.createElement("article");
+          card.className = "card";
 
-        // 头部：姓名 + 学校 badge
-        const header = document.createElement("div");
-        header.className = "card-header";
+          // 头部：姓名 + 学校 badge
+          const header = document.createElement("div");
+          header.className = "card-header";
 
-        const nameEl = document.createElement("div");
-        nameEl.className = "card-name";
-        nameEl.textContent = f.name || "";
+          const nameEl = document.createElement("div");
+          nameEl.className = "card-name";
+          nameEl.textContent = f.name || "(No name)";
 
-        const schoolBadge = document.createElement("span");
-        schoolBadge.className = "badge " + (f.school === "NTU"
-          ? "badge-school-NTU"
-          : f.school === "NUS"
-          ? "badge-school-NUS"
-          : "");
-        schoolBadge.textContent = f.school || "Unknown";
+          const schoolBadge = document.createElement("span");
+          const school = f.school || "";
+          schoolBadge.className =
+            "badge " +
+            (school === "NTU"
+              ? "badge-school-NTU"
+              : school === "NUS"
+              ? "badge-school-NUS"
+              : "");
+          schoolBadge.textContent = school || "Unknown";
 
-        header.appendChild(nameEl);
-        header.appendChild(schoolBadge);
+          header.appendChild(nameEl);
+          header.appendChild(schoolBadge);
 
-        // 职称 title
-        const titleEl = document.createElement("div");
-        titleEl.className = "card-title";
-        const titleParts = [];
-        if (f.title) titleParts.push(f.title);
-        if (f.role) titleParts.push(f.role);
-        if (f.join_year) titleParts.push(`since ${f.join_year}`);
-        titleEl.textContent = titleParts.join(" · ");
+          // 职称 title / role / join_year
+          const titleEl = document.createElement("div");
+          titleEl.className = "card-title";
+          const titleParts = [];
+          if (f.title) titleParts.push(f.title);
+          if (f.role) titleParts.push(f.role);
+          if (f.join_year) titleParts.push("since " + f.join_year);
+          titleEl.textContent = titleParts.join(" · ");
 
-        // 部门
-        const deptEl = document.createElement("div");
-        deptEl.className = "card-dept";
-        deptEl.textContent = f.department || "";
+          // 部门
+          const deptEl = document.createElement("div");
+          deptEl.className = "card-dept";
+          deptEl.textContent = f.department || "";
 
-        // 研究方向：Research Area + keywords
-        const researchEl = document.createElement("div");
-        researchEl.className = "card-research";
-        const kw = Array.isArray(f.keywords) ? f.keywords.join(", ") : "";
-        const researchParts = [];
-        if (f.research_area) researchParts.push(f.research_area);
-        if (kw) researchParts.push(kw);
-        researchEl.textContent = researchParts.join(" | ");
+          // 研究方向：优先用 research_area + keywords，否则退回旧的 research
+          const researchEl = document.createElement("div");
+          researchEl.className = "card-research";
 
-        // 底部：奖项 badge + 链接
-        const footer = document.createElement("div");
-        footer.className = "card-footer";
+          const parts = [];
+          if (f.research_area) parts.push(f.research_area);
+          if (Array.isArray(f.keywords) && f.keywords.length) {
+            parts.push(f.keywords.join(", "));
+          }
+          if (!parts.length && f.research) {
+            parts.push(f.research);
+          }
+          researchEl.textContent = parts.join(" | ");
 
-        const awardsEl = document.createElement("div");
-        const awards = Array.isArray(f.awards) ? f.awards : [];
-        if (awards.length) {
-          awards.forEach(a => {
+          // 底部：奖项 badge + 链接
+          const footer = document.createElement("div");
+          footer.className = "card-footer";
+
+          const awardsEl = document.createElement("div");
+          const awards = Array.isArray(f.awards) ? f.awards : [];
+          if (awards.length) {
+            awards.forEach(a => {
+              const badge = document.createElement("span");
+              badge.className = "badge";
+              badge.textContent = a;
+              awardsEl.appendChild(badge);
+            });
+          } else {
             const badge = document.createElement("span");
             badge.className = "badge";
-            badge.textContent = a;
+            badge.textContent = "No listed awards";
             awardsEl.appendChild(badge);
-          });
-        } else if (f.ai_flag) {
-          const badge = document.createElement("span");
-          badge.className = "badge";
-          badge.textContent = f.ai_flag;
-          awardsEl.appendChild(badge);
-        } else {
-          const badge = document.createElement("span");
-          badge.className = "badge";
-          badge.textContent = "No listed awards";
-          awardsEl.appendChild(badge);
+          }
+
+          const linkEl = document.createElement("a");
+          linkEl.className = "link";
+          linkEl.textContent = "Homepage";
+          // 兼容两种字段：homepage / link
+          const homepage = f.homepage || f.link || "#";
+          linkEl.href = homepage || "#";
+          linkEl.target = "_blank";
+          linkEl.rel = "noopener noreferrer";
+
+          footer.appendChild(awardsEl);
+          footer.appendChild(linkEl);
+
+          card.appendChild(header);
+          card.appendChild(titleEl);
+          card.appendChild(deptEl);
+          card.appendChild(researchEl);
+          card.appendChild(footer);
+
+          resultsContainer.appendChild(card);
+        } catch (e) {
+          console.error("Error rendering faculty at index", idx, f, e);
         }
-
-        const linkEl = document.createElement("a");
-        linkEl.className = "link";
-        linkEl.textContent = "Homepage";
-        linkEl.href = f.link || "#";
-        linkEl.target = "_blank";
-        linkEl.rel = "noopener noreferrer";
-
-        footer.appendChild(awardsEl);
-        footer.appendChild(linkEl);
-
-        card.appendChild(header);
-        card.appendChild(titleEl);
-        card.appendChild(deptEl);
-        card.appendChild(researchEl);
-        card.appendChild(footer);
-
-        resultsContainer.appendChild(card);
       });
     }
 
@@ -313,8 +322,9 @@
         textPieces.push(f.department || "");
         textPieces.push(f.title || "");
         textPieces.push(f.role || "");
+        textPieces.push(f.research || "");
         textPieces.push(f.research_area || "");
-        textPieces.push(Array.isArray(f.keywords) ? f.keywords.join(" ") : "");
+        if (Array.isArray(f.keywords)) textPieces.push(f.keywords.join(" "));
         textPieces.push(f.hat || "");
         textPieces.push(f.fellowship || "");
         textPieces.push(f.ai_flag || "");
@@ -339,6 +349,7 @@
           throw new Error("Failed to load faculties.json");
         }
         FACULTIES = await resp.json();
+        console.log("Loaded faculties:", FACULTIES);
         applyFilters();
       } catch (err) {
         console.error(err);
@@ -355,3 +366,4 @@
 
 </body>
 </html>
+
